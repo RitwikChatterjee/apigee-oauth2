@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="oAuth2">
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1458083555217</CreatedAt>
+    <CreatedBy>noreply_admin@apigee.com</CreatedBy>
+    <DisplayName>oAuth2</DisplayName>
+    <LastModifiedAt>1458089918021</LastModifiedAt>
+    <LastModifiedBy>noreply_admin@apigee.com</LastModifiedBy>
+    <Policies>
+        <Policy>Extract-User-Credentials</Policy>
+        <Policy>Generate-Access-Token</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <TargetServers/>
+    <TargetEndpoints/>
+    <validate>false</validate>
+</APIProxy>

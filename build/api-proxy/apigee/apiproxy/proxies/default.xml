@@ -18,6 +18,9 @@
                     <Name>Extract-User-Credentials</Name>
                 </Step>
                 <Step>
+                    <Name>AM-Assign-Customer-Id</Name>
+                </Step>
+                <Step>
                     <Name>Generate-Access-Token</Name>
                 </Step>
             </Request>

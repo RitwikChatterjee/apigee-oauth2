@@ -8,6 +8,10 @@
     <SupportedGrantTypes>
         <GrantType>password</GrantType>
     </SupportedGrantTypes>
+	<!-- Attaching end customerid to accesstoken after validation -->
+    <Attributes>
+        <Attribute name="customerId" ref="customerId"/>
+    </Attributes>
     <GenerateResponse enabled="true"/>
     <Tokens/>
 </OAuthV2>

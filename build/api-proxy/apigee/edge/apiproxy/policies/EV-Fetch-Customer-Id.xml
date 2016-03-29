@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExtractVariables async="false" continueOnError="false" enabled="true" name="EV-Fetch-Customer-Id">
+    <DisplayName>EV Fetch Customer Id</DisplayName>
+    <Source clearPayload="false">validatedUser</Source>
+    <VariablePrefix>registered</VariablePrefix>
+    <JSONPayload>
+       <Variable name="customerId">
+          <JSONPath>$.user.gmf-ma-customerId</JSONPath>
+       </Variable>
+    </JSONPayload>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+</ExtractVariables>

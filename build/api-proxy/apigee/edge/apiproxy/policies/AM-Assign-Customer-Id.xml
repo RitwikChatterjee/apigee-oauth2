@@ -3,8 +3,8 @@
     <DisplayName>AM Assign-Customer-Id</DisplayName>
     <AssignVariable>
         <Name>customerId</Name>
-        <Value>12345</Value>
-        <Ref/>
+        <Value/>
+        <Ref>validatedUser.user.gmf-ma-customerId</Ref>
     </AssignVariable>
     <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
     <AssignTo createNew="false" transport="http" type="request"/>

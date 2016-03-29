@@ -18,7 +18,10 @@
                     <Name>Extract-User-Credentials</Name>
                 </Step>
                 <Step>
-                    <Name>AM-Assign-Customer-Id</Name>
+                    <Name>SC-Validate-User-Credentials</Name>
+                </Step>
+                <Step>
+                    <Name>EV-Fetch-Customer-Id</Name>
                 </Step>
                 <Step>
                     <Name>Generate-Access-Token</Name>

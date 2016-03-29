@@ -10,7 +10,7 @@
     </SupportedGrantTypes>
 	<!-- Attaching end customerid to accesstoken after validation -->
     <Attributes>
-        <Attribute name="customerId" ref="customerId"/>
+        <Attribute name="customerId" ref="registered.customerId"/>
     </Attributes>
     <GenerateResponse enabled="true"/>
     <Tokens/>

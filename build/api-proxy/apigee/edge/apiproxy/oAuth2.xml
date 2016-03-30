@@ -10,7 +10,7 @@
         <Policy>Extract-User-Credentials</Policy>
         <Policy>SC-Validate-User-Credentials</Policy>
         <Policy>EV-Fetch-Customer-Id</Policy>
-        <Policy>AM-Assign-Customer-Id</Policy>
+        <Policy>AF-Invalid-User-Credentials</Policy>
         <Policy>Generate-Access-Token</Policy>
     </Policies>
     <ProxyEndpoints>

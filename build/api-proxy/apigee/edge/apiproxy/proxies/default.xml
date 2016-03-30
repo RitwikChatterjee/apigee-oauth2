@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <ProxyEndpoint name="default">
     <Description/>
-    <FaultRules/>
+    <FaultRules>
+      <FaultRule name="invalid-user-credentials">
+        <Step>
+          <Name>AF-Invalid-User-Credentials</Name>
+        </Step>
+        <Condition>(fault.name = "ExecutionFailed")</Condition>
+      </FaultRule>
+    </FaultRules>
     <PreFlow name="PreFlow">
         <Request></Request>
         <Response/>

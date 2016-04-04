@@ -1,1 +1,0 @@
-python C:\Ritwik-All\Ritwik-Practice\APIs\Apigee-Samples\api-platform-samples\tools\deploy.py -n oAuth2 -u ritwik_chatterjee@dell.com:Apigee01 -o amer-partner9 -e test -d C:\Ritwik-All\Ritwik-Practice\APIs\Apigee-OAuth-PoC\build\api-proxy\apigee\edge -p /

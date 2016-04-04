@@ -12,6 +12,7 @@
         <Policy>EV-Fetch-Customer-Id</Policy>
         <Policy>AF-Invalid-User-Credentials</Policy>
         <Policy>Generate-Access-Token</Policy>
+        <Policy>Refresh-Access-Token</Policy>
     </Policies>
     <ProxyEndpoints>
         <ProxyEndpoint>default</ProxyEndpoint>

@@ -37,6 +37,16 @@
             <Response/>
             <Condition>(proxy.pathsuffix MatchesPath "/token") and (request.verb = "POST")</Condition>
         </Flow>
+        <Flow name="refresh-access-token">
+            <Description>Refresh Access token</Description>
+            <Request>
+                <Step>
+                    <Name>Refresh-Access-Token</Name>
+                </Step>
+            </Request>
+            <Response/>
+            <Condition>(proxy.pathsuffix MatchesPath "/refresh") and (request.verb = "POST")</Condition>
+        </Flow>
     </Flows>
     <HTTPProxyConnection>
         <BasePath>/oauth2/v1</BasePath>

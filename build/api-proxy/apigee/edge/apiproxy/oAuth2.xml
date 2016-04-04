@@ -13,6 +13,7 @@
         <Policy>AF-Invalid-User-Credentials</Policy>
         <Policy>Generate-Access-Token</Policy>
         <Policy>Refresh-Access-Token</Policy>
+        <Policy>JS-Remove-Unnec-Data</Policy>
     </Policies>
     <ProxyEndpoints>
         <ProxyEndpoint>default</ProxyEndpoint>
